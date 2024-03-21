@@ -1,0 +1,309 @@
+﻿/* design */
+
+/*********************************************************************************
+レイアウト
+*********************************************************************************/
+
+*{
+	margin: 0;
+	padding: 0;
+	}
+	
+body{
+	text-align: left;
+	/*background-color: #ffffff;*/
+	background-color:#000000;
+	}
+	
+#header{
+	text-align: left;
+	height: 213px;
+	background: url(image/header.png) no-repeat;
+	}
+
+#footer{
+	text-align: right;
+	font-size: 10pt;
+	}
+	
+#contents{
+	width: 1080px;
+	margin: auto;
+	text-align: center;
+	line-height: 1.5;
+}
+
+#contents h1{
+	padding-bottom: 20px;
+  position: relative;
+  top: 20px;
+  left: 220px;
+}
+
+#contents p{
+	position: relative;
+	top: 0px;
+	left: 220px;
+	font-size: 12pt;
+	line-height: 1.5;
+	}
+
+#col{
+	width: 1080px;
+	float: center;
+	margin: auto;
+	}
+	
+
+#menu{
+	width: 179px;
+	float: left;
+	border: 1px solid #BBBBBB;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 4px;
+	padding-bottom: 10px;
+	background-color: #000099;
+	}
+	
+
+
+
+/*#right{
+	width: 200px;
+	float: center;
+	border: 2px solid #000000;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+*/	
+
+#main{
+	width: 853px;
+	float: left;
+	padding: 10px;
+	border: 1px solid #BBBBBB;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #ffffff;
+	background-color: #313131;
+	}
+
+
+/*********************************************************************************
+main
+*********************************************************************************/	
+#main hr{
+	color: #BBBBBB;
+	}
+	
+dl#news{
+	text-align: left;
+	margin-bottom:10px;
+	}
+
+dl#news dt{
+	float:left;
+	width: 100px;
+	padding-bottom: 10px;
+	}
+	
+dl#news dd{
+	margin-left:110px;
+	border-bottom: dotted 1px;
+	margin-bottom: 10px;
+	}
+	
+#main h2{
+	border-left: solid 10px #C465EF;
+	border-bottom: solid 1px #C465EF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	/*padding-top: 10px;
+	padding-bottom: 10px;*/
+	}	
+	
+#main li{
+	margin-left: 20px;
+	}
+		
+#menu h2{
+	background: #FFF980;
+	margin-bottom:10px;
+	margin-top: 10px;
+	}
+
+
+	
+#main table.detail{
+	width: 850px;
+	border: 1px solid #ffffff;
+	text-align: center;
+	}
+	
+#main table.detail th{
+	background: #FFBF3E;
+	}
+
+#main table.detail td{
+	background: #F8FDBB;
+	}
+	
+#main p{
+	font-size: 11pt;
+	}
+
+a:link.menu{
+	color: #010065;
+	}
+	
+a:link.website{
+	color: #FFFF00;
+	}
+	
+a:visited.menu{
+	color: #010065;
+	}
+
+a:visited.website{
+	color: #CC00FF;
+	}
+	
+a:hover.menu{
+ 	color: #31E1F1;
+ 	}
+ 	
+a:hover.website{
+	color: #33FF00;
+	}
+	
+a:active.menu{
+	color: #FF00FF;
+	}
+	
+a:active.website{
+	color: #FF6600;
+	}
+ 	
+/*********************************************************************************
+profile
+*********************************************************************************/
+dl#profile{
+	text-align: left;
+	margin-bottom: 10px;
+	}
+	
+dl#profile dt{
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	}
+	
+dl#profile dd{
+	margin-left: 75px;
+	border-bottom: dotted 1px;
+	margin-bottom: 10px;
+	/*margin-left:50px;
+	margin-top: -1.5em;
+	margin-bottom: 5px;
+	border-bottom: dotted 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;*/
+	}
+
+/*********************************************************************************
+patent
+*********************************************************************************/
+ol#patent{
+	text-align: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	}
+
+ul#patent{
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	}
+	
+ul#patent li{
+	text-align: left;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	list-style-type: disc;
+	margin-left: 40px;
+	margin-bottom: 5px;
+	}
+/*	
+ul#patent2{
+	text-align: left;
+	}
+	
+ul#patent2 li{
+	text-align: left;
+	font-size: 12pt;
+	padding-top: 5px;
+	list-style-type: disc;
+	}
+*/	
+
+/*********************************************************************************
+publication
+*********************************************************************************/
+ol#publication{
+	text-align: left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	}
+
+li#publication{
+	line-height: 1.5;
+	}
+	
+a.publication{
+	color: #FFFF00;
+	}
+
+a:link.publication{
+	color: #FFFF00;
+	}
+
+a:visited.publication{
+	color: #CC00FF;
+	}
+	
+a:hover.publication{
+	color: #33FF00;
+	}
+	
+a:active.publication{
+	color: #FF6600;
+	}
+	
+/*********************************************************************************
+menu_list
+*********************************************************************************/
+ul#menu_list{
+	text-align: left;
+	}
+	
+ul#menu_list li{
+	text-align: left;
+	background-color: #A3E1FA;
+	border: 1px solid #ffffff;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12pt;
+	color: #010065;
+	font-weight: bold;
+	margin-left: 0px;
+	list-style-type: none;
+	}
+/*img#address{
+	margin-top: -20px;
+	}*/
+	
+
+	
